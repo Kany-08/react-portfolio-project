@@ -1,0 +1,11 @@
+$primaryColor:#F84791;
+$mainColor:#25388E;
+
+
+$width:768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
